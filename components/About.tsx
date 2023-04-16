@@ -33,7 +33,7 @@ const About = (props: Props) => {
         </h3>
 
         <div className="flex justify-center"></div>
-        <div className="grid   md:grid-cols-4 grid-cols-2  md:gap-40  lg:gap-14 biggerthansmall:gap-28 gap-24  ">
+        <div className="grid   md:grid-cols-3 lg:grid-cols-4 grid-cols-2  md:gap-40  lg:gap-14 biggerthansmall:gap-28 gap-24  ">
           <div className="flex flex-col space-y-4  items-center  ">
             <motion.div
               initial={{ rotate: -360 }}

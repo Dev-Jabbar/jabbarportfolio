@@ -78,8 +78,10 @@ const Hero = (props: Props) => {
           </div>
 
           <h1 className="font-semibold">Hi my name is</h1>
-          <h3 className="font-extrabold text-5xl tracking-widest">
-            Abdul Jabbar.
+          <h3 className="font-extrabold text-5xl tracking-widest flex flex-col min510:flex-row min510:space-x-4">
+            <span> Abdul</span>
+
+            <span>Jabbar</span>
           </h3>
 
           <h2 className="font-thin text-3xl ">Fullstack Developer</h2>

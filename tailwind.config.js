@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       screens: {
         biggerthansmall: "432px",
-
+        min510: "510px",
         min667: "667px",
         min768: "768px",
       },

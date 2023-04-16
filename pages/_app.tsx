@@ -5,7 +5,7 @@ import DarkModeContextProvider from "@/components/DarkModeContextProvider";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ThemeProvider enableSystem={false} attribute="class">
       <DarkModeContextProvider>
         <Component {...pageProps} />
       </DarkModeContextProvider>
