@@ -13,7 +13,7 @@ const About = (props: Props) => {
         <h3 className=" font-RegularInter400 tracking-widest text-3xl font-medium ">
           <AnimatedAbout text="About Me" />
         </h3>
-        <p className="text-lg font-RegularInter400 font-thin text-justify    ">
+        <p className="text-lg  text-justify    ">
           I'm <span className="font-bold">Abdul Jabbar</span>,a{" "}
           <span className="font-bold">Software engineer</span> but mostly called
           a <span className="font-bold"> software wizard </span>by my friends
