@@ -43,7 +43,6 @@ const AnimatedSkill = ({ text }: Props) => {
       variants={container}
       initial="hidden"
       whileInView="visible"
-      viewport={{ twice: true }}
     >
       {letters.map((letter, index) => (
         <motion.p variants={child} key={index}>

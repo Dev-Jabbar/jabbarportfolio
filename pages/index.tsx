@@ -1,13 +1,14 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+
 import MobileNav from "@/components/MobileNav";
 import Project from "@/components/Project";
 import Head from "next/head";
 import Testimonials from "@/components/Testimonials";
 
 import React from "react";
+import Hero from "@/components/Hero";
 
 type Props = {};
 

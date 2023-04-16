@@ -33,11 +33,14 @@ const Hero = (props: Props) => {
   useEffect(() => {
     setMounted(true);
   }, []);
-  if (!mounted) return false;
+
   const PageTheme =
     theme === "dark"
       ? "bg-gray-700"
       : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900";
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <div
