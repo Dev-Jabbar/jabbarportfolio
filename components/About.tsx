@@ -241,6 +241,40 @@ const About = (props: Props) => {
 
             <p className="font-bold">Firebase</p>
           </div>
+          <div className="flex flex-col space-y-4 items-center  ">
+            <motion.div
+              initial={{ rotate: -360 }}
+              whileInView={{ rotate: 0 }}
+              transition={{ duration: 3 }}
+            >
+              <Image
+                className="shrink-0 biggerthansmall:h-20 h-20 rounded-full w-20 biggerthansmall:w-20 md:w-20 md:h-20 lg:w-12 lg:h-12 shadow-2xl shadow-black   object-cover"
+                src="/git.png"
+                alt="Skills"
+                height={50}
+                width={50}
+              />
+            </motion.div>
+
+            <p className="font-bold">Git</p>
+          </div>
+          <div className="flex flex-col space-y-4 items-center  ">
+            <motion.div
+              initial={{ rotate: 360 }}
+              whileInView={{ rotate: 0 }}
+              transition={{ duration: 3 }}
+            >
+              <Image
+                className="shrink-0 biggerthansmall:h-20 h-20 rounded-full w-20 biggerthansmall:w-20 md:w-20 md:h-20 lg:w-12 lg:h-12 shadow-2xl shadow-black   object-cover"
+                src="/Postgres.png"
+                alt="Skills"
+                height={50}
+                width={50}
+              />
+            </motion.div>
+
+            <p className="font-bold">PostgreSQL</p>
+          </div>
         </div>
       </div>
     </div>
