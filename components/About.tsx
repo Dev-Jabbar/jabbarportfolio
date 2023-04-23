@@ -14,16 +14,16 @@ const About = (props: Props) => {
           <AnimatedAbout text="About Me" />
         </h3>
         <p className="text-lg  text-justify    ">
-          I'm <span className="font-bold">Abdul Jabbar</span>,a{" "}
-          <span className="font-bold">Software engineer</span> but mostly called
-          a <span className="font-bold"> software wizard </span>by my friends
-          because of how fast i was able to pick up{" "}
-          <span className="font-bold">coding</span> .I have experience with web
+          I'm <span className="font-bold">Abdul Jabbar</span>, a{" "}
+          <span className="font-bold">full stack developer</span> but mostly
+          called a <span className="font-bold"> "coding machine" </span>by my
+          friends because i <span className="font-bold">code</span> for a
+          duration of about eleven hours daily.I have experience with web
           development. I believe there is no project that is difficuit to
-          execute, only if you put your mind and effort into it. I have a high
-          work ethic and equiped with various skills. I am very passionate about{" "}
-          <span className="font-bold">growth</span> , learning new things and
-          sharing ideas with my peers. i am currently open to{" "}
+          execute, you just have to put your mind and effort into it. I have a
+          high work ethic and equiped with various skills. I am very passionate
+          about <span className="font-bold">growth</span> , learning new things
+          and sharing ideas with my peers. i am currently open to{" "}
           <span className="font-bold">remote jobs</span>.
         </p>
       </div>
