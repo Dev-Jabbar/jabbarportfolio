@@ -36,117 +36,6 @@ const Project = (props: Props) => {
       </h3>
 
       <div className="  grid  md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-12 md:mr-32 md:ml-32 mr-10 ml-10 ">
-        <div className="flex flex-col space-y-2 justify-between pb-5 h-[570px] lg:h-[570px] min667:h-[650px]  2xl:h-[790px]  bg-white border shadow-xl shadow-gray-600 dark:shadow-black bg-gray-100">
-          <Swiper
-            className="   w-full"
-            // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={1}
-            autoplay={{ delay: 10000 }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
-          >
-            <SwiperSlide>
-              <Image
-                className=" w-full object-cover"
-                src="/portfolio1.png"
-                width={600}
-                height={600}
-                alt="project image"
-              />
-            </SwiperSlide>
-            <SwiperSlide className="">
-              <Image
-                className=" w-full object-cover"
-                src="/portfolio2.png"
-                width={600}
-                height={600}
-                alt="project image"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                className=" w-full object-cover"
-                src="/portfolio3.png"
-                width={600}
-                height={600}
-                alt="project image"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                className=" w-full object-cover"
-                src="/portfolio4.png"
-                width={600}
-                height={600}
-                alt="project image"
-              />
-            </SwiperSlide>
-            ..
-            <SwiperSlide>
-              <Image
-                className=" w-full object-cover"
-                src="/portfolio5.png"
-                width={600}
-                height={600}
-                alt="project image"
-              />
-            </SwiperSlide>
-          </Swiper>
-          <div className="flex flex-col md:space-y-2  space-y-6 2xl:space-y-6  pr-4 pl-4 ">
-            <h1 className="font-bold md:tracking-wider md:text-2xl text-xl tracking-wide  ">
-              My First Porfolio
-            </h1>
-            <div className="marquee  overflow-hidden whitespace-nowrap ">
-              <div className="flex space-x-6 items-center animate-marquee">
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  React
-                </span>
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  Firebase
-                </span>
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  Tailwind CSS
-                </span>
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  Framer Motion
-                </span>
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  Next Js
-                </span>
-
-                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
-                  Html
-                </span>
-              </div>
-            </div>
-
-            <p className="font-serif pb-8  ">
-              The is my First portfolio website it is very beautiful .I totally
-              enjoyed the development process. I later built my current
-              portfolio website in order to have two portfolios. Check it out.
-            </p>
-          </div>
-
-          <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/Jabbar_website">
-              <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
-                <BsGithub className="h-4 w-4" />
-
-                <p>Code</p>
-              </div>
-            </Link>
-
-            <Link href="https://jabbarlee.github.io/Jabbar_website/">
-              <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
-                <BiLinkExternal className="h-5 w-5" />
-
-                <p>Live</p>
-              </div>
-            </Link>
-          </div>
-        </div>
         <div className="flex flex-col space-y-2 justify-between pb-5 h-[570px] lg:h-[570px] min667:h-[650px]  2xl:h-[790px]  bg-white border shadow-xl shadow-gray-600 dark:shadow-black dark:shadow-black bg-gray-100 ">
           <Swiper
             className="   w-full"
@@ -501,6 +390,117 @@ const Project = (props: Props) => {
             </Link>
 
             <Link href="https://jabbarlee.github.io/Sastisfaction_eatery/">
+              <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
+                <BiLinkExternal className="h-5 w-5" />
+
+                <p>Live</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-2 justify-between pb-5 h-[570px] lg:h-[570px] min667:h-[650px]  2xl:h-[790px]  bg-white border shadow-xl shadow-gray-600 dark:shadow-black bg-gray-100">
+          <Swiper
+            className="   w-full"
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={1}
+            autoplay={{ delay: 10000 }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+          >
+            <SwiperSlide>
+              <Image
+                className=" w-full object-cover"
+                src="/portfolio1.png"
+                width={600}
+                height={600}
+                alt="project image"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <Image
+                className=" w-full object-cover"
+                src="/portfolio2.png"
+                width={600}
+                height={600}
+                alt="project image"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-full object-cover"
+                src="/portfolio3.png"
+                width={600}
+                height={600}
+                alt="project image"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-full object-cover"
+                src="/portfolio4.png"
+                width={600}
+                height={600}
+                alt="project image"
+              />
+            </SwiperSlide>
+            ..
+            <SwiperSlide>
+              <Image
+                className=" w-full object-cover"
+                src="/portfolio5.png"
+                width={600}
+                height={600}
+                alt="project image"
+              />
+            </SwiperSlide>
+          </Swiper>
+          <div className="flex flex-col md:space-y-2  space-y-6 2xl:space-y-6  pr-4 pl-4 ">
+            <h1 className="font-bold md:tracking-wider md:text-2xl text-xl tracking-wide  ">
+              My First Porfolio
+            </h1>
+            <div className="marquee  overflow-hidden whitespace-nowrap ">
+              <div className="flex space-x-6 items-center animate-marquee">
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  React
+                </span>
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  Firebase
+                </span>
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  Tailwind CSS
+                </span>
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  Framer Motion
+                </span>
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  Next Js
+                </span>
+
+                <span className="shadow-inner shadow-blue-700 border-2 border-black p-1 text-[15px] md:text-base">
+                  Html
+                </span>
+              </div>
+            </div>
+
+            <p className="font-serif pb-8  ">
+              The is my First portfolio website it is very beautiful .I totally
+              enjoyed the development process. I later built my current
+              portfolio website in order to have two portfolios. Check it out.
+            </p>
+          </div>
+
+          <div className="flex flex-col space-y-1 pl-4 pr-4 ">
+            <Link href="https://github.com/Jabbarlee/Jabbar_website">
+              <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
+                <BsGithub className="h-4 w-4" />
+
+                <p>Code</p>
+              </div>
+            </Link>
+
+            <Link href="https://jabbarlee.github.io/Jabbar_website/">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BiLinkExternal className="h-5 w-5" />
 
