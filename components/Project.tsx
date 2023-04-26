@@ -120,7 +120,7 @@ const Project = (props: Props) => {
             </p>
           </div>
           <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/JabbarBlog">
+            <Link href="https://github.com/Dev-Jabbar/dev_JabbarBlog">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BsGithub className="h-4 w-4" />
 
@@ -215,7 +215,7 @@ const Project = (props: Props) => {
           </div>
 
           <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/My_Medium_Clone">
+            <Link href="https://github.com/Dev-Jabbar/Medium-Clone-Jabbar">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BsGithub className="h-4 w-4" />
 
@@ -223,7 +223,7 @@ const Project = (props: Props) => {
               </div>
             </Link>
 
-            <Link href="https://jabbarlee.github.io/My_Medium_Clone/">
+            <Link href="https://my-medium-clone.netlify.app/">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BiLinkExternal className="h-5 w-5" />
 
@@ -314,7 +314,7 @@ const Project = (props: Props) => {
           </div>
 
           <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/pizza_joint">
+            <Link href="https://github.com/Dev-Jabbar/The-pizza-joint">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BsGithub className="h-4 w-4" />
 
@@ -381,7 +381,7 @@ const Project = (props: Props) => {
           </div>
 
           <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/Sastisfaction_eatery">
+            <Link href="https://github.com/Dev-Jabbar/The-Sastisfaction-eatery">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BsGithub className="h-4 w-4" />
 
@@ -389,7 +389,7 @@ const Project = (props: Props) => {
               </div>
             </Link>
 
-            <Link href="https://jabbarlee.github.io/Sastisfaction_eatery/">
+            <Link href="https://satisfaction-eatery.netlify.app">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BiLinkExternal className="h-5 w-5" />
 
@@ -492,7 +492,7 @@ const Project = (props: Props) => {
           </div>
 
           <div className="flex flex-col space-y-1 pl-4 pr-4 ">
-            <Link href="https://github.com/Jabbarlee/Jabbar_website">
+            <Link href="https://github.com/Dev-Jabbar/dev_Jabbar_website">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BsGithub className="h-4 w-4" />
 
@@ -500,7 +500,7 @@ const Project = (props: Props) => {
               </div>
             </Link>
 
-            <Link href="https://jabbarlee.github.io/Jabbar_website/">
+            <Link href="https://jabbar-first-portfolio.netlify.app/">
               <div className=" h-6 flex justify-center space-x-2 items-center bg-gray-100 cursor-pointer hover:bg-gray-200">
                 <BiLinkExternal className="h-5 w-5" />
 
