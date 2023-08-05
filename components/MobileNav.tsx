@@ -151,7 +151,6 @@ const MobileNav = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="bg-blue-500 bg-blue-950 h-[30%]"></div>
         </div>
       </div>
     </div>
