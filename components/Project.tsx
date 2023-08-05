@@ -30,7 +30,7 @@ const projects = [
     name: "Focus Bank UI",
     text: `Focus bank is a ready to use bank Ui that was developed by me. The Ui is very sleek and has one of the most incredible designs and very user friendly with clean loading skeletons.`,
     link: "https://github.com/Dev-Jabbar/Focus_bank",
-    live: "https://https://focusbank.vercel.app",
+    live: "https://focusbank.vercel.app",
     scrollText: [
       { id: 1, name: "Tailwind CSS" },
       { id: 2, name: "React" },
