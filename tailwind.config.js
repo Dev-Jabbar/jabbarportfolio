@@ -14,10 +14,16 @@ module.exports = {
     extend: {
       screens: {
         biggerthansmall: "432px",
+
         min510: "510px",
         min667: "667px",
         min768: "768px",
+        min340: "350px",
+        min1440: "1440px",
+        min632: "632px",
+        min920: "920px",
       },
+
       animation: {
         "spin-slow": "spin 7s linear infinite",
       },
