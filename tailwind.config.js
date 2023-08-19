@@ -26,6 +26,7 @@ module.exports = {
 
       animation: {
         "spin-slow": "spin 7s linear infinite",
+        "spin-slowest": "spin 15s linear infinite",
       },
 
       fontFamily: {

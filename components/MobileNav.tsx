@@ -1,7 +1,5 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 
-import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
-import { DarkModeContext } from "./DarkModeContextProvider";
 import { BsGithub, BsTwitter, BsWhatsapp } from "react-icons/bs";
 import Link from "next/link";
 import { GrLinkedinOption } from "react-icons/gr";
