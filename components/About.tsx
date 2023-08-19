@@ -51,8 +51,8 @@ const About = (props: Props) => {
         </div>
         <div className="flex justify-center pt-20 items-center mb-10 flex-col w-full  lg:max-w-[50%] space-y-6">
           <motion.div
-            className="min-[2880px]:h-[1050px] min-[3456px]:h-[1400px] min-[3456px]:w-[1100px] min-[2560px]:h-[1000px] min-[2560px]:w-[800px] 2xl:h-[700px] 2xl:w-[500px] min-[2880px]:w-[850px] xl:h-[500px] xl:w-[400px] h-[400px] lg:h-[450px] lg:w-[350px] md:h-[400] md:w-[400px] w-full rounded-3xl overflow-hidden shadow-2xl shadow-black "
-            initial={{ x: 300 }}
+            className="min-[2880px]:h-[1050px] max-[320px]:h-[300px] min-[3456px]:h-[1400px] min-[3456px]:w-[1100px] min-[2560px]:h-[1000px] min-[2560px]:w-[800px] 2xl:h-[700px] 2xl:w-[500px] min-[2880px]:w-[850px] xl:h-[500px] xl:w-[400px] h-[400px] lg:h-[450px] lg:w-[350px] md:h-[400] md:w-[400px] w-full rounded-3xl overflow-hidden shadow-2xl shadow-black "
+            initial={{ x: 200 }}
             whileInView={{ x: 1 }}
             transition={{ delay: 1, duration: 1 }}
           >

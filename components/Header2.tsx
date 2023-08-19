@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useContext } from "react";
 
 import { motion, Variants } from "framer-motion";
 import { TbMusic } from "react-icons/tb";
@@ -7,7 +7,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 
 import Link from "next/link";
 
-import { useEffect } from "react";
+import { MyContext } from "./ContextProvider";
 
 const socialVariants: Variants = {
   hover: {
@@ -40,32 +40,14 @@ const buttonVariants: Variants = {
 type Props = {};
 
 const Header2 = (props: Props) => {
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const [playAudio, setPlayAudio] = useState(false);
+  const context = useContext(MyContext);
 
-  const handleButtonClick = () => {
-    if (audioRef.current?.paused) {
-      audioRef.current?.play();
-    } else {
-      audioRef.current?.pause();
-    }
-  };
+  if (!context) {
+    // Handle the case when the context is undefined
+    return <div>Loading...</div>;
+  }
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setPlayAudio(true);
-    }, 4000);
-
-    return () => {
-      clearTimeout(timeoutId);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (playAudio && audioRef.current) {
-      audioRef.current.play();
-    }
-  }, [playAudio]);
+  const { handleButtonClick } = context;
 
   return (
     <motion.header
@@ -79,7 +61,6 @@ const Header2 = (props: Props) => {
       transition={{ duration: 2, delay: 2 }}
       className={`fixed    flex md:flex-row bg-white bg-opacity-10  items-center justify-between w-screen  z-20  xl:items-center  md:h-[56px] 2xl:h-[80px] h-[40px] min-[2560px]:h-[100px] min-[3216px]:h-[150px]     `}
     >
-      <audio ref={audioRef} src="/idea.mp3" />
       {/* Social icons */}
 
       <motion.div

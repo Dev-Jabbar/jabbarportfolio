@@ -141,10 +141,10 @@ const Project = (props: Props) => {
           return (
             <div
               key={project.id}
-              className="flex flex-col space-y-2 justify-between pb-5 h-[570px] lg:h-[570px] min667:h-[650px]  2xl:h-[790px] min-[2880px]:h-[1000px] min-[3456px]:h-[1200px] bg-gradient-to-tr from-sky-500 via-fuchsia-700 to-purple-500 border shadow-xl shadow-black  "
+              className="flex flex-col space-y-1  justify-between pb-5 h-[570px] lg:h-[570px] min667:h-[650px]  2xl:h-[790px] min-[2880px]:h-[1000px] min-[3456px]:h-[1200px] bg-gradient-to-tr from-sky-500 via-fuchsia-700 to-purple-500 border shadow-xl shadow-black  "
             >
               <Swiper
-                className="   w-full"
+                className=" h-[300px] md:h-[250px] 2xl:h-[400px]  min-[3456px]:h-[650px] min-[2560px]:h-[450px] min-[2880px]:h-[550px]  w-full"
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
@@ -157,10 +157,10 @@ const Project = (props: Props) => {
                   return (
                     <SwiperSlide key={cardImage.id}>
                       <Image
-                        className=" w-full object-cover"
+                        className="  h-full w-full "
                         src={cardImage.link}
-                        width={600}
-                        height={600}
+                        width={1000}
+                        height={1000}
                         alt={cardImage.alt}
                       />
                     </SwiperSlide>
@@ -168,7 +168,7 @@ const Project = (props: Props) => {
                 })}
               </Swiper>
 
-              <div className="flex flex-col md:space-y-2  space-y-6 2xl:space-y-6  pr-4 pl-4">
+              <div className="flex flex-col md:space-y-2 min-[3456px]:space-y-14  space-y-2 2xl:space-y-6  pr-4 pl-4">
                 <h1 className="font-bold min-[3456px]:text-4xl  min-[2880px]:text-3xl md:tracking-wider md:text-2xl text-xl tracking-wide  ">
                   {project.name}
                 </h1>
