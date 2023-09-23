@@ -46,8 +46,31 @@ const projects = [
       { id: 3, link: "/focus5.png", alt: "Focus Image5" },
     ],
   },
+
   {
     id: 2,
+    name: "Store Genius",
+    text: "The ultimate API generator for customizing and managing your online store. Create, update, and delete products and billboards with ease. Enjoy dark and light modes for a sleek user experience. Tailor-made for any store, from books to fashion.",
+    link: "https://github.com/Dev-Jabbar/StoreGenius",
+    live: "https://storegenius.vercel.app/",
+    scrollText: [
+      { id: 1, name: "Clerk Authentication" },
+      { id: 2, name: "Next Js" },
+      { id: 3, name: "Tailwind CSS" },
+      { id: 4, name: "React" },
+
+      { id: 5, name: "html" },
+      { id: 6, name: "planet scale" },
+      { id: 7, name: "Prisma" },
+      { id: 8, name: "Radix Ui" },
+      { id: 9, name: "Next Api" },
+      { id: 10, name: "Stripe" },
+    ],
+    scrollImage: [{ id: 1, link: "/api.gif", alt: "StoreGenius1" }],
+  },
+
+  {
+    id: 3,
     name: "Medium Clone",
     text: `My love for reading articles made me build a medium look-alike website. you can sign in as a user and actually create and publish your articles on the go, which is made possible using google authentication.`,
     link: "https://github.com/Dev-Jabbar/Medium-Clone-Jabbar",
@@ -66,7 +89,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Jabbar's Blog",
     text: `My official Blog where i update the latest happenings about my life , religion , sport and news in general. it is being managed with sanity content management system and uses Nextjs static site genration to update posts in real time.`,
     link: "https://github.com/Dev-Jabbar/dev_JabbarBlog",
@@ -88,7 +111,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Pizza Odering App",
     text: `A highly animated pizza odering app for pizza lovers like myself.It doesnt have the best functionaties as the focus was mainly on the user interface and animations. you can select the base,toppings for each pizza your order for.This app has slick animations using framer motion.`,
     link: "https://github.com/Dev-Jabbar/The-pizza-joint",
@@ -108,7 +131,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Satisfaction Eatery",
     text: `Satistfaction eatery is a single page website. i buit this website when i was practicing tailwind css responsiveness using flexbox and gridbox also mastering taiwind css hover effects.`,
     link: "https://github.com/Dev-Jabbar/The-Sastisfaction-eatery",
