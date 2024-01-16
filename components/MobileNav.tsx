@@ -132,7 +132,7 @@ const MobileNav = (props: Props) => {
                     </div>
                   </span>
                 </Link>
-                <Link href="https://twitter.com/NIGERIAN_KING2?s=09">
+                <Link href="https://twitter.com/VINTAGE_JAB">
                   <span>
                     <div className=" bg-white p-3 rounded-full">
                       <BsTwitter className="h-5 cursor-pointer  w-5    text-blue-500  " />

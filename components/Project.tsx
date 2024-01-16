@@ -28,7 +28,7 @@ const projects = [
   {
     id: 1,
     name: "Focus Bank UI",
-    text: `Focus bank is a ready to use bank Ui that was developed by me. The Ui is very sleek and has one of the most incredible designs and very user friendly with clean loading skeletons.`,
+    text: `Explore Focus Bank UI, an elegantly designed and user-friendly banking interface. With a sleek aesthetic and clean loading skeletons, it offers a seamless and visually appealing experience for all your banking needs.`,
     link: "https://github.com/Dev-Jabbar/Focus_bank",
     live: "https://focusbank.vercel.app",
     scrollText: [
@@ -71,8 +71,43 @@ const projects = [
 
   {
     id: 3,
+    name: "Book Island",
+    text: "Book Island is a sophisticated web app utilizing the Book_island_api to access content. Users receive 100 points on their first visit, granting them the freedom to choose a book. The app also facilitates book creation, cart additions, and order placement within the allocated 100 points.",
+    link: "https://github.com/Dev-Jabbar/Book_Island",
+    live: "https://book-island.netlify.app/",
+    scrollText: [
+      { id: 1, name: "react" },
+      { id: 2, name: "Typescript" },
+      { id: 3, name: "tailwind css" },
+      { id: 4, name: "Context api" },
+      { id: 5, name: "react toastify" },
+      { id: 6, name: "Headless Ui" },
+    ],
+    scrollImage: [{ id: 1, link: "/Book_Island.jpg", alt: "Book_island" }],
+  },
+
+  {
+    id: 4,
+    name: "Book Island Api",
+    text: "This API service, crafted with precision, drives the Book Island frontend using Express.js with TypeScript. It follows the services, repository, and controller pattern, offering routes for authentication, books, customers, carts, and orders with robust validation. Passwords are securely hashed for user protection.",
+    link: "https://github.com/Dev-Jabbar/Book_Island_Backend",
+    live: "https://book-island-backend.onrender.com",
+    scrollText: [
+      { id: 1, name: " Authentication" },
+      { id: 2, name: "Typescript" },
+      { id: 3, name: "Express JS" },
+      { id: 4, name: "Cors" },
+      { id: 5, name: "Bcrypt" },
+      { id: 6, name: "Render" },
+    ],
+    scrollImage: [{ id: 1, link: "/api.gif", alt: "API" }],
+  },
+
+  {
+    id: 5,
     name: "Medium Clone",
-    text: `My love for reading articles made me build a medium look-alike website. you can sign in as a user and actually create and publish your articles on the go, which is made possible using google authentication.`,
+    text: `
+    I have developed a Medium-inspired website that caters to avid readers and writers. Users can seamlessly sign in using Google authentication and enjoy the convenience of creating and publishing articles effortlessly. This platform is designed to provide a user-friendly experience for both readers and content creators.`,
     link: "https://github.com/Dev-Jabbar/Medium-Clone-Jabbar",
     live: "https://my-medium-clone.netlify.app/",
     scrollText: [
@@ -89,7 +124,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     name: "Jabbar's Blog",
     text: `My official Blog where i update the latest happenings about my life , religion , sport and news in general. it is being managed with sanity content management system and uses Nextjs static site genration to update posts in real time.`,
     link: "https://github.com/Dev-Jabbar/dev_JabbarBlog",
@@ -111,9 +146,9 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     name: "Pizza Odering App",
-    text: `A highly animated pizza odering app for pizza lovers like myself.It doesnt have the best functionaties as the focus was mainly on the user interface and animations. you can select the base,toppings for each pizza your order for.This app has slick animations using framer motion.`,
+    text: `Indulge in a visually captivating pizza ordering experience! This app, designed with pizza lovers in mind, focuses on a stunning user interface and smooth animations. Choose your pizza base and toppings with flair, enhanced by slick animations powered by Framer Motion.`,
     link: "https://github.com/Dev-Jabbar/The-pizza-joint",
     live: "https://spontaneous-alpaca-972877.netlify.app",
     scrollText: [
@@ -131,9 +166,9 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     name: "Satisfaction Eatery",
-    text: `Satistfaction eatery is a single page website. i buit this website when i was practicing tailwind css responsiveness using flexbox and gridbox also mastering taiwind css hover effects.`,
+    text: `Satisfaction Eatery is A single-page website showcasing Tailwind CSS expertise in responsiveness, Flexbox, Gridbox, and captivating hover effects. Explore a visually delightful culinary experience.`,
     link: "https://github.com/Dev-Jabbar/The-Sastisfaction-eatery",
     live: "https://satisfaction-eatery.netlify.app",
     scrollText: [

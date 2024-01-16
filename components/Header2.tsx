@@ -84,7 +84,7 @@ const Header2 = (props: Props) => {
           </span>
         </Link>
 
-        <Link href="https://twitter.com/NIGERIAN_KING2?s=09">
+        <Link href="https://twitter.com/VINTAGE_JAB">
           <span>
             <div className=" bg-black p-1 rounded-full">
               <BsTwitter className="h-4 cursor-pointer  w-4 min-[3216px]:h-8  min-[3216px]:w-8   text-green-500 min-[2560px]:h-6 min-[2560px]:w-6 " />
