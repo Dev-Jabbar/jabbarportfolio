@@ -27,6 +27,24 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
+    name: "The Stock Market",
+    text: `It provides efficient real time stock data insights with static page rendering. Features include organized structures, static page loading, and comprehensive analysis metrics. Utilizes Tailwind CSS, React-Apex-Charts, and Material-UI for a robust tech stack.`,
+    link: "https://github.com/Dev-Jabbar/The_Stock_Markets",
+    live: "https://the-stock-markets.netlify.app/",
+    scrollText: [
+      { id: 1, name: "Apex Chart" },
+      { id: 2, name: "SWR caching" },
+      { id: 3, name: "Alpha Vantage Api" },
+      { id: 5, name: "Dark Mode" },
+      { id: 6, name: "Next Js" },
+      { id: 7, name: "Tailwind CSS" },
+
+      { id: 4, name: "Html" },
+    ],
+    scrollImage: [{ id: 1, link: "/Stock Market.JPG", alt: "Stock Market1" }],
+  },
+  {
+    id: 1,
     name: "Focus Bank UI",
     text: `Explore Focus Bank UI, an elegantly designed and user-friendly banking interface. With a sleek aesthetic and clean loading skeletons, it offers a seamless and visually appealing experience for all your banking needs.`,
     link: "https://github.com/Dev-Jabbar/Focus_bank",
