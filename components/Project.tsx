@@ -44,7 +44,7 @@ const projects = [
     scrollImage: [{ id: 1, link: "/Stock Market.JPG", alt: "Stock Market1" }],
   },
   {
-    id: 1,
+    id: 2,
     name: "Focus Bank UI",
     text: `Explore Focus Bank UI, an elegantly designed and user-friendly banking interface. With a sleek aesthetic and clean loading skeletons, it offers a seamless and visually appealing experience for all your banking needs.`,
     link: "https://github.com/Dev-Jabbar/Focus_bank",
@@ -66,7 +66,28 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
+    name: "Gym Ontime",
+    text: "when complete would be your all-in-one gym app for easy class booking, real-time updates, secure payments with Stripe, and seamless connections between users and trainers. Simplify your fitness journey with Gym_Ontime. ",
+    link: "https://github.com/Dev-Jabbar/Gym_Ontime",
+    live: "https://gym-ontime.vercel.app/",
+    scrollText: [
+      { id: 1, name: "JWT Authentication" },
+      { id: 2, name: "Next Js" },
+      { id: 3, name: "Tailwind CSS" },
+      { id: 4, name: "Nest js" },
+
+      { id: 5, name: "Chart js" },
+      { id: 6, name: "Posgre Sql" },
+      { id: 7, name: "Prisma" },
+
+      { id: 8, name: "Stripe" },
+    ],
+    scrollImage: [{ id: 1, link: "/Gym_Ontime.JPG", alt: "Gym" }],
+  },
+
+  {
+    id: 4,
     name: "Store Genius",
     text: "The ultimate API generator for customizing and managing your online store. Create, update, and delete products and billboards with ease. Enjoy dark and light modes for a sleek user experience. Tailor-made for any store, from books to fashion.",
     link: "https://github.com/Dev-Jabbar/StoreGenius",
@@ -88,7 +109,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     name: "Book Island",
     text: "Book Island is a sophisticated web app utilizing the Book_island_api to access content. Users receive 100 points on their first visit, granting them the freedom to choose a book. The app also facilitates book creation, cart additions, and order placement within the allocated 100 points.",
     link: "https://github.com/Dev-Jabbar/Book_Island",
@@ -105,7 +126,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     name: "Book Island Api",
     text: "This API service, crafted with precision, drives the Book Island frontend using Express.js with TypeScript. It follows the services, repository, and controller pattern, offering routes for authentication, books, customers, carts, and orders with robust validation. Passwords are securely hashed for user protection.",
     link: "https://github.com/Dev-Jabbar/Book_Island_Backend",
@@ -122,7 +143,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     name: "Medium Clone",
     text: `
     I have developed a Medium-inspired website that caters to avid readers and writers. Users can seamlessly sign in using Google authentication and enjoy the convenience of creating and publishing articles effortlessly. This platform is designed to provide a user-friendly experience for both readers and content creators.`,
@@ -142,7 +163,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     name: "Jabbar's Blog",
     text: `My official Blog where i update the latest happenings about my life , religion , sport and news in general. it is being managed with sanity content management system and uses Nextjs static site genration to update posts in real time.`,
     link: "https://github.com/Dev-Jabbar/dev_JabbarBlog",
@@ -164,7 +185,7 @@ const projects = [
     ],
   },
   {
-    id: 7,
+    id: 9,
     name: "Pizza Odering App",
     text: `Indulge in a visually captivating pizza ordering experience! This app, designed with pizza lovers in mind, focuses on a stunning user interface and smooth animations. Choose your pizza base and toppings with flair, enhanced by slick animations powered by Framer Motion.`,
     link: "https://github.com/Dev-Jabbar/The-pizza-joint",
@@ -184,7 +205,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     name: "Satisfaction Eatery",
     text: `Satisfaction Eatery is A single-page website showcasing Tailwind CSS expertise in responsiveness, Flexbox, Gridbox, and captivating hover effects. Explore a visually delightful culinary experience.`,
     link: "https://github.com/Dev-Jabbar/The-Sastisfaction-eatery",
