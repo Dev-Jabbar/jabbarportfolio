@@ -41,7 +41,7 @@ const projects = [
 
       { id: 4, name: "Html" },
     ],
-    scrollImage: [{ id: 1, link: "/Stock Market.JPG", alt: "Stock Market1" }],
+    scrollImage: [{ id: 1, link: "/Stock_Market.JPG", alt: "Stock Market" }],
   },
   {
     id: 2,
